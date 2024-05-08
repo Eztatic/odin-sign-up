@@ -3,22 +3,19 @@
       margin: 0;
       box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 @font-face {
-      font-family: 'norse_bold';
-      src: url('norse_bold.otf') format('opentype');
-    }
-
-body{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      font-family: norse_bold;
+      src: url('norse_bold.woff2') format('woff2');
 }
 
-.center{
-      display: flex;
+body {
       width: 1440px;
+      margin: 0 auto;
+}
+
+.center {
+      display: flex;
       background-color: #ebebeb;
 }
 
@@ -30,7 +27,7 @@ body{
       height: 100vh;
 }
 
-.odin .logo{
+.odin .logo {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -38,25 +35,24 @@ body{
       background-color: rgba(0, 0, 0, 40%);
 }
 
-.odin .logo img{
-      width: 100px;
-      height: auto;
+.odin .logo img {
+      width: 40%;
 }
 
-.odin .logo p{
+.odin .logo p {
       font-family: 'norse_bold', sans-serif;
       font-size: 6rem;
       color: #fff;
 }
 
-.sign-up{
+.sign-up {
       display: flex;
       flex-direction: column;
       justify-content: center;
 }
 
-.sign-up p{
-      font-family: 'Inter', sans-serif;
+.sign-up p {
+      font-family: Arial, sans-serif;
       font-size: 1.3rem;
       font-weight: 600;
       padding-left: 40px;
@@ -64,16 +60,16 @@ body{
       width: 700px;
 }
 
-.sign-up .form_container{
+.sign-up .form_container {
       background-color: #fff;
-      font-family: Helvetica, sans-serif;
+      font-family: Arial, sans-serif;
       width: 954px;
       margin-top: 40px;
       margin-bottom: 20px;
       box-shadow: 0px 6px 10px -9px rgba(0,0,0,1);
 }
 
-.sign-up .form_container form{
+.sign-up .form_container form {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -82,7 +78,7 @@ body{
       padding: 20px 0 20px 40px;
 }
 
-.sign-up .form_container form > label{
+.sign-up .form_container form > label {
       text-transform: uppercase;
       white-space: nowrap;
       font-size: 11px;
@@ -93,7 +89,7 @@ body{
       color: #696969;
 }
 
-.sign-up .form_container form > input{
+.sign-up .form_container form > input {
       width: 250px;
       padding: 8px;
       border: 1px solid #E5E7EB;
@@ -102,20 +98,20 @@ body{
       font-weight: bold;
 }
 
-.sign-up .form_container form > input:focus{
+.sign-up .form_container form > input:focus {
       border: 1px solid #00bfff;
       outline: none !important;
       box-shadow: 1px 1px 5px rgba(112, 112, 112, 0.65);
 }
 
-input, label{
+input, label {
       width: auto;  
 }
 
 button {
       border-radius: 5px;
       box-shadow: 4px 4px 5px #666666;
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       color: #ffffff;
       font-size: 20px;
       background: #596D48;
@@ -128,12 +124,12 @@ button {
       cursor: pointer;
     }
 
-.sign-up .log_in{
+.sign-up .log_in {
       font-size: 16px;
       font-weight: 500;
 }
 
-.log_in a{
+.log_in a {
       color: #596D48;
       text-decoration: none;
       font-weight: bold;
