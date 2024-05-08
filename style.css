@@ -1,0 +1,141 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+      font-family: 'norse_bold';
+      src: url('norse_bold.otf') format('opentype');
+    }
+
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.center{
+      display: flex;
+      width: 1440px;
+      background-color: #ebebeb;
+}
+
+.odin {
+      background-image: url('leaves.jpg');
+      background-size: cover;
+      background-position: center;
+      padding-top: 15%;
+      height: 100vh;
+}
+
+.odin .logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 120px;
+      background-color: rgba(0, 0, 0, 40%);
+}
+
+.odin .logo img{
+      width: 100px;
+      height: auto;
+}
+
+.odin .logo p{
+      font-family: 'norse_bold', sans-serif;
+      font-size: 6rem;
+      color: #fff;
+}
+
+.sign-up{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.sign-up p{
+      font-family: 'Inter', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      padding-left: 40px;
+      padding-top: 20px;
+      width: 700px;
+}
+
+.sign-up .form_container{
+      background-color: #fff;
+      font-family: Helvetica, sans-serif;
+      width: 954px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      box-shadow: 0px 6px 10px -9px rgba(0,0,0,1);
+}
+
+.sign-up .form_container form{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 250px;
+      width: 650px;
+      padding: 20px 0 20px 40px;
+}
+
+.sign-up .form_container form > label{
+      text-transform: uppercase;
+      white-space: nowrap;
+      font-size: 11px;
+      margin-top: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      letter-spacing: 1px;
+      color: #696969;
+}
+
+.sign-up .form_container form > input{
+      width: 250px;
+      padding: 8px;
+      border: 1px solid #E5E7EB;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      font-weight: bold;
+}
+
+.sign-up .form_container form > input:focus{
+      border: 1px solid #00bfff;
+      outline: none !important;
+      box-shadow: 1px 1px 5px rgba(112, 112, 112, 0.65);
+}
+
+input, label{
+      width: auto;  
+}
+
+button {
+      border-radius: 5px;
+      box-shadow: 4px 4px 5px #666666;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      background: #596D48;
+      text-decoration: none;
+      border: none;
+      margin-left: 40px;
+      margin-bottom: 10px;
+      width: 250px;
+      height: 50px;
+      cursor: pointer;
+    }
+
+.sign-up .log_in{
+      font-size: 16px;
+      font-weight: 500;
+}
+
+.log_in a{
+      color: #596D48;
+      text-decoration: none;
+      font-weight: bold;
+}
+
